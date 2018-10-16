@@ -1,0 +1,41 @@
+Yo bro
+
+So here's the project. The point of the project is to get you familiar with Redux,
+which is paramount to using React. It takes a bit of understanding the language
+in order to understand the use of Redux.
+
+Basic explanation: Lets say your user logs in and you have their username, email,
+phone number, things they "like", etc. You get that info on the login page, how
+does the User Profile screen get that information? You use Redux. So, when a user logs in,
+you "dispatch" (synonyms would be 'send', but dispatch is the terminology) the user
+to the "Redux Store", which will hold all the data you "dispatch" (send) to it.
+Once you put something in the redux store, it will hold it as long as you want.
+
+I imagine it like if you want to send a text, you send it from your phone, up to
+a satellite, where it stays until the other person's phone is capable of receiving it
+
+So you login and get a user from the database, then put it in Redux, then when
+you go to the Profile Screen, you access the user from the redux store
+
+Here's the project,
+
+You will be a user and create different dishes or meals. It will be a form process,
+so when you "Create", you'll go through a several page proces (you decide what it is),
+but Im thinking its' like
+
+Screen 1: add ingredients, there will be an IngredientForm in here, where you
+list the ingredient and the amount, then you can add as many as you want
+
+Screen 2: step by step instructions, will be a StepForm or call it whatever, where
+you type what needs to be done with the ingredients and how long it is estimated to take
+
+Screen 3: final regards on the dish, could put a picture in if you want, might be
+good practice at accessing an iOS process (Camera Roll/Photos), also maybe some
+other fields like total time to make, some bs rating system, whatever
+
+When you "create", it will "add" it to your profile so that next time you login, it will display
+the recipe on your homepage. Not the whole recipe right there, but a box with the name of
+the dish and total cook time
+Then, if you click it, it will display a detail page with dish name, ingredients list, cook steps, etc
+
+But...lets start with the Create Form, thats the important part. 
