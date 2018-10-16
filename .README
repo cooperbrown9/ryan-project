@@ -38,4 +38,21 @@ the recipe on your homepage. Not the whole recipe right there, but a box with th
 the dish and total cook time
 Then, if you click it, it will display a detail page with dish name, ingredients list, cook steps, etc
 
-But...lets start with the Create Form, thats the important part. 
+But...lets start with the Create Form, thats the important part.
+
+
+
+
+
+-------------------------------------------------------
+REDUX EXPLANATION
+-------------------------------------------------------
+
+So to use dispatch something to the redux store, you do so like
+this.props.dispatch({});
+The {} are the object that it takes as a parameter. It will always have a "type"
+parameter, which basically specifies which reducer to hit
+
+this.props.dispatch({ type: UserActions.SET_USER, username: 'Dude' })
+
+Honestly, you might wanna call me for a better exlpanation, I'll still leave this here tho

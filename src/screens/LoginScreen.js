@@ -5,7 +5,7 @@ Yo so here's what to do on this page
 Make login form, more of a create account page.
 Make it have a username field.
 
-When you enter a username, save it with AsyncStorage.
+When you enter a username, save it with AsyncStorage, look up how to use it, its pretty simple
 Then, when you open the app the next time, it will get the username and bypass
 this screen because you have already logged in, hypothetically
 
