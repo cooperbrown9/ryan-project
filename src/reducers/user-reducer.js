@@ -1,7 +1,6 @@
 import * as UserActions from '../action-types/user-action-types';
 
 const initialState = {
-  id: null,
   username: null
 }
 
@@ -10,7 +9,6 @@ function user(state=initialState, action) {
     case UserActions.SET_USER:
       return {
         ...state,
-        id: action.id,
         username: action.username
       }
 
